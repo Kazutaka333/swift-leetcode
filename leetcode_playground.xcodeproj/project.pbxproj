@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		272F85C229D66F5E00F209BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85C129D66F5E00F209BD /* main.swift */; };
+		272F85C229D66F5E00F209BD /* 205.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85C129D66F5E00F209BD /* 205.swift */; };
+		272F85C929D6737C00F209BD /* 392.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85C829D6737C00F209BD /* 392.swift */; };
+		2755DCAB29D926150084021E /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755DCAA29D926150084021E /* 21.swift */; };
+		2785449429DB9847004BA864 /* 876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785449329DB9847004BA864 /* 876.swift */; };
+		2785449629DB9C41004BA864 /* 142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785449529DB9C41004BA864 /* 142.swift */; };
+		2791EF7F29DA5BFB00EA964B /* 206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791EF7E29DA5BFB00EA964B /* 206.swift */; };
+		27D8DF7429DCEC6000F50BEC /* 121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8DF7329DCEC6000F50BEC /* 121.swift */; };
+		27D8DF7629DCEF2B00F50BEC /* 409.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8DF7529DCEF2B00F50BEC /* 409.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +31,14 @@
 
 /* Begin PBXFileReference section */
 		272F85BE29D66F5E00F209BD /* leetcode_playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_playground; sourceTree = BUILT_PRODUCTS_DIR; };
-		272F85C129D66F5E00F209BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		272F85C129D66F5E00F209BD /* 205.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 205.swift; sourceTree = "<group>"; };
+		272F85C829D6737C00F209BD /* 392.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 392.swift; sourceTree = "<group>"; };
+		2755DCAA29D926150084021E /* 21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.swift; sourceTree = "<group>"; };
+		2785449329DB9847004BA864 /* 876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 876.swift; sourceTree = "<group>"; };
+		2785449529DB9C41004BA864 /* 142.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 142.swift; sourceTree = "<group>"; };
+		2791EF7E29DA5BFB00EA964B /* 206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206.swift; sourceTree = "<group>"; };
+		27D8DF7329DCEC6000F50BEC /* 121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 121.swift; sourceTree = "<group>"; };
+		27D8DF7529DCEF2B00F50BEC /* 409.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 409.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 		272F85C029D66F5E00F209BD /* leetcode_playground */ = {
 			isa = PBXGroup;
 			children = (
-				272F85C129D66F5E00F209BD /* main.swift */,
+				2755DCAA29D926150084021E /* 21.swift */,
+				27D8DF7329DCEC6000F50BEC /* 121.swift */,
+				2785449529DB9C41004BA864 /* 142.swift */,
+				272F85C129D66F5E00F209BD /* 205.swift */,
+				2791EF7E29DA5BFB00EA964B /* 206.swift */,
+				272F85C829D6737C00F209BD /* 392.swift */,
+				27D8DF7529DCEF2B00F50BEC /* 409.swift */,
+				2785449329DB9847004BA864 /* 876.swift */,
 			);
 			path = leetcode_playground;
 			sourceTree = "<group>";
@@ -90,7 +111,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					272F85BD29D66F5E00F209BD = {
 						CreatedOnToolsVersion = 14.2;
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272F85C229D66F5E00F209BD /* main.swift in Sources */,
+				272F85C929D6737C00F209BD /* 392.swift in Sources */,
+				27D8DF7429DCEC6000F50BEC /* 121.swift in Sources */,
+				27D8DF7629DCEF2B00F50BEC /* 409.swift in Sources */,
+				2785449429DB9847004BA864 /* 876.swift in Sources */,
+				2785449629DB9C41004BA864 /* 142.swift in Sources */,
+				272F85C229D66F5E00F209BD /* 205.swift in Sources */,
+				2791EF7F29DA5BFB00EA964B /* 206.swift in Sources */,
+				2755DCAB29D926150084021E /* 21.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +188,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -220,6 +249,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -244,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LXLUFTR6K8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -255,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LXLUFTR6K8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
