@@ -8,7 +8,7 @@
 import Foundation
 // 409
 
-class Solution {
+class Solution409 {
     func longestPalindrome(_ s: String) -> Int {
         var map = [Character: Int]()
         for c in s {
@@ -25,6 +25,6 @@ class Solution {
 }
 
 // print(Solution().longestPalindrome("abccccdd"))
-print(Solution().longestPalindrome("eeehhhnrrttttww"))
+// print(Solution().longestPalindrome("eeehhhnrrttttww"))
 // wttrhenehrttw
 // a:1, b:1, c:4, d:2

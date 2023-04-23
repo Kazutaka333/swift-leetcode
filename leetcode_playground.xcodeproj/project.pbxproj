@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		272F85C229D66F5E00F209BD /* 205.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85C129D66F5E00F209BD /* 205.swift */; };
-		272F85C929D6737C00F209BD /* 392.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F85C829D6737C00F209BD /* 392.swift */; };
-		2755DCAB29D926150084021E /* 21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755DCAA29D926150084021E /* 21.swift */; };
-		2785449429DB9847004BA864 /* 876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785449329DB9847004BA864 /* 876.swift */; };
-		2785449629DB9C41004BA864 /* 142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785449529DB9C41004BA864 /* 142.swift */; };
-		2791EF7F29DA5BFB00EA964B /* 206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2791EF7E29DA5BFB00EA964B /* 206.swift */; };
-		27D8DF7429DCEC6000F50BEC /* 121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8DF7329DCEC6000F50BEC /* 121.swift */; };
-		27D8DF7629DCEF2B00F50BEC /* 409.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8DF7529DCEF2B00F50BEC /* 409.swift */; };
+		27D8DF7B29DE503C00F50BEC /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 27D8DF7A29DE503C00F50BEC /* Collections */; };
+		27D8DF7D29DE503C00F50BEC /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 27D8DF7C29DE503C00F50BEC /* DequeModule */; };
+		27D8DF7F29DE503C00F50BEC /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 27D8DF7E29DE503C00F50BEC /* OrderedCollections */; };
+		27ED107E29F4C255007E7026 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED107D29F4C255007E7026 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +35,14 @@
 		2791EF7E29DA5BFB00EA964B /* 206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 206.swift; sourceTree = "<group>"; };
 		27D8DF7329DCEC6000F50BEC /* 121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 121.swift; sourceTree = "<group>"; };
 		27D8DF7529DCEF2B00F50BEC /* 409.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 409.swift; sourceTree = "<group>"; };
+		27D8DF7729DE433500F50BEC /* 589.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 589.swift; sourceTree = "<group>"; };
+		27D8DF8029DE51E300F50BEC /* 102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 102.swift; sourceTree = "<group>"; };
+		27D8DF8629DF9F5400F50BEC /* 704.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 704.swift; sourceTree = "<group>"; };
+		27D8DF9A29E3891900F50BEC /* 278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 278.swift; sourceTree = "<group>"; };
+		27D8DFBD29E4D6C700F50BEC /* 98.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 98.swift; sourceTree = "<group>"; };
+		27D8DFC129E6334200F50BEC /* 235.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 235.swift; sourceTree = "<group>"; };
+		27ED107129F36D66007E7026 /* 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.swift; sourceTree = "<group>"; };
+		27ED107D29F4C255007E7026 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D8DF7B29DE503C00F50BEC /* Collections in Frameworks */,
+				27D8DF7D29DE503C00F50BEC /* DequeModule in Frameworks */,
+				27D8DF7F29DE503C00F50BEC /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +79,21 @@
 			isa = PBXGroup;
 			children = (
 				2755DCAA29D926150084021E /* 21.swift */,
+				27D8DFBD29E4D6C700F50BEC /* 98.swift */,
+				27D8DF8029DE51E300F50BEC /* 102.swift */,
 				27D8DF7329DCEC6000F50BEC /* 121.swift */,
 				2785449529DB9C41004BA864 /* 142.swift */,
 				272F85C129D66F5E00F209BD /* 205.swift */,
 				2791EF7E29DA5BFB00EA964B /* 206.swift */,
+				27D8DF9A29E3891900F50BEC /* 278.swift */,
 				272F85C829D6737C00F209BD /* 392.swift */,
 				27D8DF7529DCEF2B00F50BEC /* 409.swift */,
+				27D8DF7729DE433500F50BEC /* 589.swift */,
+				27D8DF8629DF9F5400F50BEC /* 704.swift */,
 				2785449329DB9847004BA864 /* 876.swift */,
+				27D8DFC129E6334200F50BEC /* 235.swift */,
+				27ED107129F36D66007E7026 /* 3.swift */,
+				27ED107D29F4C255007E7026 /* main.swift */,
 			);
 			path = leetcode_playground;
 			sourceTree = "<group>";
@@ -99,6 +114,11 @@
 			dependencies = (
 			);
 			name = leetcode_playground;
+			packageProductDependencies = (
+				27D8DF7A29DE503C00F50BEC /* Collections */,
+				27D8DF7C29DE503C00F50BEC /* DequeModule */,
+				27D8DF7E29DE503C00F50BEC /* OrderedCollections */,
+			);
 			productName = leetcode_playground;
 			productReference = 272F85BE29D66F5E00F209BD /* leetcode_playground */;
 			productType = "com.apple.product-type.tool";
@@ -127,6 +147,9 @@
 				Base,
 			);
 			mainGroup = 272F85B529D66F5E00F209BD;
+			packageReferences = (
+				27D8DF7929DE503C00F50BEC /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 272F85BF29D66F5E00F209BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,14 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272F85C929D6737C00F209BD /* 392.swift in Sources */,
-				27D8DF7429DCEC6000F50BEC /* 121.swift in Sources */,
-				27D8DF7629DCEF2B00F50BEC /* 409.swift in Sources */,
-				2785449429DB9847004BA864 /* 876.swift in Sources */,
-				2785449629DB9C41004BA864 /* 142.swift in Sources */,
-				272F85C229D66F5E00F209BD /* 205.swift in Sources */,
-				2791EF7F29DA5BFB00EA964B /* 206.swift in Sources */,
-				2755DCAB29D926150084021E /* 21.swift in Sources */,
+				27ED107E29F4C255007E7026 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +332,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27D8DF7929DE503C00F50BEC /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27D8DF7A29DE503C00F50BEC /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D8DF7929DE503C00F50BEC /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		27D8DF7C29DE503C00F50BEC /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D8DF7929DE503C00F50BEC /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		27D8DF7E29DE503C00F50BEC /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D8DF7929DE503C00F50BEC /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 272F85B629D66F5E00F209BD /* Project object */;
 }
